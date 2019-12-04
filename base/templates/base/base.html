@@ -1,0 +1,27 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MySite</title>
+<style>
+  
+</style>
+  <link rel="stylesheet" href="{% static 'base/css/site.css' %}">
+</head>
+<body>
+<div id="content">
+{% block content %}{% endblock %}
+</div>
+</body>
+<footer class="footer"> <!-- here -->
+    <div class="container">
+    <span class="text-muted">
+    Base project for the <a target="_blank" href="h\
+    ttps://leanpub.com/django-the-easy-way">"Django - The Easy \
+    Way" </a>book.
+    </span>
+    </div>
+</footer>
+</html>
